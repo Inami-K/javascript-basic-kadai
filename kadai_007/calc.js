@@ -2,7 +2,7 @@ let num;
 
 num = 9;
 
-if (num % 15 == 0){
+if (num % 3 == 0 && num % 5 == 0){
     console.log('3と5の倍数です');
 }
 else if (num % 3 == 0){
